@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/map_view"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Map View" />
+        <item
+            android:id="@+id/list_view"
+            android:icon="@drawable/ic_menu_list"
+            android:title="List View" />
+        <item
+            android:id="@+id/search_location"
+            android:icon="@drawable/ic_menu_location"
+            android:title="Search By Location" />
+
+
+        <item
+            android:id="@+id/nav_radius"
+            android:icon="@drawable/ic_menu_radius"
+            android:title="Range" />
+        <item
+            android:id="@+id/nav_sort"
+            android:icon="@drawable/ic_menu_sort"
+            android:title="Sort" />
+
+    </group>
+
+
+
+</menu>
